@@ -22,5 +22,6 @@ def Main(configfilename):
 
 
 if __name__ == "__main__":
-    Main("/etc/projet1.conf")
+    Main("/etc/firewall.conf")
+    print("program finished successfully")
 
