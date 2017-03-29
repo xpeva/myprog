@@ -4,7 +4,7 @@
 import time, sys
 
 def removeCRLF(msg):
-    return msg.replace('\n','').replace('\r', '')
+    return ''.join(msg.splitlines())
 
 def Main(configfilename):
     sys.exit(0)
