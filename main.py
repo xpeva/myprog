@@ -5,7 +5,7 @@ import time, sys
 import configparser
 
 def removeCRLF(msg):
-    return msg.replace('\n','').replace('\r', '')
+    return ''.join(msg.splitlines())
 
 def Main(configfilename):
     config = configparser.ConfigParser()
