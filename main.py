@@ -22,6 +22,7 @@ def Main(configfilename):
 
 
 if __name__ == "__main__":
-    Main("/etc/firewall.conf")
+    Main("/etc/parefeu.conf")
     print("program finished successfully")
+
 
